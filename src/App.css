@@ -7,6 +7,11 @@ body  {
   font-family: 'Poppins';
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav {
   display: flex;
   align-items: center;
@@ -43,4 +48,96 @@ nav button:hover {
   background-color: rgb(219, 81, 81);
   cursor: pointer;
   animation: ease;
+}
+
+
+.left {
+  max-width: 800px ;
+  justify-content: center;
+  margin-top: 100px;
+}
+.left h1 {
+  width: 596px;
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px ;
+}
+
+.left .title {
+  max-width: 404px;
+  color: grey;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left .buttons {
+  display: flex;
+  gap: 20px;
+
+
+}
+
+.left .btnShop {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  width: 100px;
+
+}
+.left .btnCategory {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid gray;
+  font-weight: 600;
+  width: 100px;
+
+}
+
+.left .btnShop:hover {
+  background-color: rgb(219, 81, 81);
+  cursor: pointer;
+  animation: ease;
+
+}
+.left .btnCategory:hover {
+  background-color: rgb(123, 121, 121);
+  cursor: pointer;
+  animation: ease;
+
+}
+
+.left .bottom {
+  margin-top: 40px;
+}
+
+.left .bottom p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.left .bottom .imgs {
+  display: flex;
+  gap: 20px;
+}
+
+.left .bottom .imgs .amazon {
+  height: 32px;
+  width: 32px;
+}
+.left .bottom .imgs .flipkart {
+  height: 32px;
+  width: 32px;
+}
+
+.main .right img {
+  margin-left: 100px;
+  margin-top: 100px;
+  
+
 }
