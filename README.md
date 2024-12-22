@@ -1,8 +1,17 @@
-# React + Vite
+  <h1>👟 Nike Brand Page</h1>
+  <p>A sleek, single-page Nike brand showcase designed using React and CSS. This page highlights Nike's products, branding, and style with modern responsiveness.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>🚀 Features</h2>
+  <ul>
+    <li>Stunning hero section with Nike branding and tagline.</li>
+    <li>Showcase of popular Nike products with hover animations.</li>
+    <li>Fully responsive design for all devices.</li>
+    <li>Footer with links to social media and contact information.</li>
+  </ul>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>🛠️ Tech Stack</h2>
+  <ul>
+    <li><b>React:</b> For building the user interface and components.</li>
+    <li><b>CSS:</b> For styling and responsiveness.</li>
+    <li><b>React Icons:</b> For social media and branding icons (if used).</li>
+  </ul>
